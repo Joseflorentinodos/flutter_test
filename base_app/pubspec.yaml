@@ -1,0 +1,38 @@
+name: restaurant_tour
+description: Flutter developer coding challenge starter project.
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+
+environment:
+  sdk: ">=3.1.0 <4.0.0"
+  flutter: ">=3.19.6"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  micro_app_dependencies:
+    path: '../micro_app_dependencies'
+  micro_app_ds:
+    path: '../micro_app_ds'
+  micro_app_http:
+    path: '../micro_app_http'
+  micro_app_core:
+    path: '../micro_app_core'
+  micro_app_restaurant:
+    path: '../micro_app_restaurant'
+  
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+  build_runner: ^2.4.10
+  json_serializable: ^6.8.0
+
+flutter:
+  generate: true
+  uses-material-design: true
+        
